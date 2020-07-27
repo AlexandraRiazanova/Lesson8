@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson8</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.min.js" integrity="sha512-x3BwhuxT44pOQZanacQyDnrB2r1L1AUfjUaefYArTHR9sHEvvy3NSnnm5Z7GAl5YPc3+GEWFT0S34obDSzUvaQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/8.0.1/mocha.min.js" integrity="sha512-ApK//o0cQFCph3kX20wrHlNzlitDH4TydeGc7yn2OiM2Bymv9abvskmtLcvJ1EmAcgigVteKHAhF/DWY6ybYag==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/8.0.1/mocha.min.css" integrity="sha512-6RWs5FczsXwODIZJoL0szz3bXX5W+q/m7bFVQ7HSwZbBXd7PpyYrg2f9Dr4Y2Guqi5k4NJsemxXuiiFoI8fQ4A==" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="mocha"></div>
+    <script>
+        mocha.setup('bdd');
+        expect = chai.expect;
+        assert = chai.assert;
+    </script>
+    <script src="script.js"></script>
+    <!-- <script src="functions.spec.js"></script> -->
+    <script>
+        mocha.run();
+    </script>
+</body>
+</html>
